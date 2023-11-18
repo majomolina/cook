@@ -1,0 +1,25 @@
+/* page1 */
+.container_1_section{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+
+/* recipes */
+.carousel_image{
+    height: 20px;
+    width: 100%;
+}
+.container_recipes{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+
+    gap: 100px;
+  }
+
+.images_container{
+    width:50%;
+
+}
