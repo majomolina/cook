@@ -7,6 +7,8 @@
     gap:20px;
     margin-left: 30px;
 flex-wrap: wrap;
+align-content: center; align-self: center;
+
 }
 
 
@@ -48,4 +50,14 @@ margin-left: 30px;
     width: 100;
 margin-left: 30px;
     gap: 100px;
+}
+.icon_home{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.carousel_home{
+    height: 500px;
+    width: 1000px;
 }
