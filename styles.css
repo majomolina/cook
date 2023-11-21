@@ -61,3 +61,23 @@ margin-left: 30px;
     height: 500px;
     width: 1000px;
 }
+
+/* footer */
+.footer {
+    display: flex;
+    background-color:#e3f2fd;
+  
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  .grid_container_7_seccion{
+    width: 60%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+      grid-gap:10px;
+      margin-top: 10px;}
+    
