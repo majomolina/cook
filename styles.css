@@ -6,6 +6,7 @@
   align-content: center;
   gap: 20px;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .c-size{
@@ -32,6 +33,7 @@
 .title{
   text-align: center;
   margin-top: 30px;
+  color: skyblue;
 }
 
 .description{
@@ -42,13 +44,113 @@
 
 .procedure{
   align-self: center;
-}
-
-.list{
-  list-style: none;
-}
-
-.page-footer{
-  height: 50px;
+  list-style: none !important;
+  border: none;
   
 }
+
+.link-card{
+  text-decoration: none !important;
+  color:black;
+}
+
+
+
+.list{
+  border: none !important;
+}
+
+
+
+
+
+
+
+
+
+/* majo styles */
+/* page1 */
+.container_1_section{
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  color:red;
+  gap:20px;
+  margin-left: 30px;
+flex-wrap: wrap;
+align-content: center; align-self: center;
+
+}
+
+
+
+/* recipes */
+.carousel_image{
+  height: 20px;
+  width: 50%;
+}
+.container_recipes{
+  display: flex;
+  flex-direction: row;
+  height: 750px;
+  width: 100;
+margin-left: 30px;
+  gap: 100px;
+
+}
+
+.images_container{
+  width:50%;
+
+}
+.recipie_list{
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  & label{
+      border-style: none;
+   
+  }
+}
+.container_3_recipe{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 100;
+margin-left: 30px;
+  gap: 100px;
+}
+.icon_home{
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.carousel_home{
+  height: 500px;
+  width: 1000px;
+}
+
+/* footer */
+.footer {
+  margin-top: 100px;
+  display: flex;
+  background-color:#e3f2fd;
+
+  height: 350px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.grid_container_7_seccion{
+  width: 60%;
+  margin:auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+    grid-gap:10px;
+    margin-top: 10px;}
+  
+
