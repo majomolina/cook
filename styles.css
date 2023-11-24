@@ -137,6 +137,8 @@ margin-left: 30px;
     align-items: center;
     flex-direction: column;
     padding-top: 100px;
+    margin-top: 100px;
+    margin-left: 0 auto;    
   }
   .grid_container_7_seccion{
     width: 60%;
